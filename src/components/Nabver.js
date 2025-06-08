@@ -18,7 +18,7 @@ const Nabver = () => {
         setColor(true);
       }
       else{
-        setColor(true);
+        setColor(false);
       }
     };
     window.addEventListener("scroll",changeColor);
