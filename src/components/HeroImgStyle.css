@@ -47,6 +47,22 @@
     margin:1rem 0.5rem;
 }
 
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;       /* Makes it circular */
+  object-fit: cover;
+  border: 2px solid white;
+  margin-bottom: 1rem;      /* Spacing below image */
+  display: inline-block;    /* Align with text */
+}
+
+
+
+
+
+
+
 @media screen and (max-width:640px){
     .hero .content h1{
         font-size:3rem;
