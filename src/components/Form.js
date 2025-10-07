@@ -68,9 +68,9 @@ const Form = () => {
           >
             <h2>Let's Work Together</h2>
             <p>
-              I'm always excited to work on new projects and collaborate with amazing people. 
-              Whether you have a project in mind or just want to chat about web development, 
-              feel free to reach out!
+              I'm a fresh Computer Science graduate excited to start my career in web development! 
+              Whether you have an entry-level position, internship opportunity, or project idea, 
+              I'd love to hear from you and discuss how I can contribute.
             </p>
             
             <div className="contact-details">
@@ -83,10 +83,10 @@ const Form = () => {
               </div>
               
               <div className="contact-item">
-                <div className="contact-icon">📱</div>
+                <div className="contact-icon">🎓</div>
                 <div>
-                  <h4>Phone</h4>
-                  <p>+880 123-456-7890</p>
+                  <h4>Status</h4>
+                  <p>Fresh CS Graduate - Ready to Work</p>
                 </div>
               </div>
               

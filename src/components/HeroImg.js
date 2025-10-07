@@ -76,9 +76,10 @@ const HeroImg = () => {
           <Typewriter
             words={[
               "Full Stack Web Developer",
-              "MERN Stack Developer", 
-              "React.js Specialist",
-              "Problem Solver"
+              "Fresh CS Graduate", 
+              "React.js Enthusiast",
+              "Problem Solver",
+              "Ready to Work"
             ]}
             loop={0}
             cursor
@@ -90,8 +91,8 @@ const HeroImg = () => {
         </motion.div>
 
         <motion.p className="description" variants={itemVariants}>
-          Passionate about creating innovative web solutions that bridge the gap between design and functionality. 
-          Let's build something amazing together!
+          Fresh Computer Science graduate passionate about creating innovative web solutions. 
+          Ready to bring fresh ideas and modern development skills to your next project!
         </motion.p>
 
         <motion.div className="cta-buttons" variants={itemVariants}>

@@ -5,33 +5,33 @@ import './TestimonialsStyle.css';
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "Project Manager at TechCorp",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face",
-      text: "Sajeeb delivered an exceptional web application that exceeded our expectations. His attention to detail and technical expertise are outstanding.",
-      rating: 5
-    },
-    {
-      name: "Michael Chen",
-      role: "CEO at StartupXYZ",
+      name: "Academic Excellence",
+      role: "Computer Science Graduate",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
-      text: "Working with Sajeeb was a fantastic experience. The restaurant website he built has significantly improved our online presence and customer engagement.",
+      text: "Successfully completed my Computer Science degree with strong focus on web development. Built multiple projects demonstrating full-stack capabilities and modern development practices.",
       rating: 5
     },
     {
-      name: "Emily Rodriguez",
-      role: "Education Director",
+      name: "Self-Directed Learning",
+      role: "Continuous Improvement",
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
-      text: "The scholarship management system has streamlined our entire application process. Sajeeb's solution is both user-friendly and highly efficient.",
+      text: "Passionate about staying updated with latest technologies. Completed numerous online courses and certifications in React.js, Node.js, and modern web development frameworks.",
+      rating: 5
+    },
+    {
+      name: "Project Portfolio",
+      role: "Practical Experience",
+      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face",
+      text: "Developed diverse range of projects including e-commerce platforms, management systems, and social impact applications. Each project showcases different aspects of full-stack development.",
       rating: 5
     }
   ];
 
   const achievements = [
-    { number: "50+", label: "Projects Completed", icon: "🚀" },
-    { number: "30+", label: "Happy Clients", icon: "😊" },
-    { number: "2+", label: "Years Experience", icon: "⏰" },
-    { number: "10+", label: "Technologies Mastered", icon: "💡" }
+    { number: "15+", label: "Projects Built", icon: "🚀" },
+    { number: "10+", label: "Technologies Learned", icon: "�" },
+    { number: "2+", label: "Years Learning", icon: "📚" },
+    { number: "100%", label: "Passion & Dedication", icon: "❤️" }
   ];
 
   const containerVariants = {
@@ -100,8 +100,8 @@ const Testimonials = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2>What Clients Say</h2>
-          <p>Don't just take my word for it - here's what some of my clients have to say about working with me</p>
+          <h2>My Journey & Achievements</h2>
+          <p>Here's what I've accomplished during my learning journey and academic career</p>
         </motion.div>
 
         <motion.div

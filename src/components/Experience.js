@@ -5,26 +5,26 @@ import './ExperienceStyle.css';
 const Experience = () => {
   const experiences = [
     {
-      title: "Full Stack Developer",
-      company: "Freelance",
-      period: "2023 - Present",
-      description: "Developing full-stack web applications using MERN stack. Built 10+ projects including e-commerce platforms, management systems, and social impact applications.",
+      title: "Computer Science Graduate",
+      company: "University Studies",
+      period: "2020 - 2024",
+      description: "Completed Bachelor's degree in Computer Science with focus on software development, data structures, algorithms, and modern web technologies. Built strong foundation in programming concepts.",
+      technologies: ["Java", "C++", "Python", "Database Management"],
+      icon: "🎓"
+    },
+    {
+      title: "Full Stack Web Developer",
+      company: "Self-Learning & Projects",
+      period: "2022 - Present",
+      description: "Intensive self-learning journey focusing on modern web development. Built 15+ projects including e-commerce platforms, management systems, and social impact applications.",
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js"],
-      icon: "💼"
+      icon: "�"
     },
     {
-      title: "Web Development Projects",
-      company: "Personal Portfolio",
-      period: "2022 - 2023",
-      description: "Created various web applications including restaurant websites, scholarship management systems, and food donation platforms with modern UI/UX design.",
-      technologies: ["React.js", "Firebase", "Material-UI", "Bootstrap"],
-      icon: "🚀"
-    },
-    {
-      title: "Learning & Development",
-      company: "Self-taught Developer",
+      title: "Web Development Enthusiast",
+      company: "Personal Development",
       period: "2021 - 2022",
-      description: "Intensive learning phase focusing on modern web technologies, best practices, and building strong foundation in programming concepts.",
+      description: "Started learning web development through online courses and tutorials. Mastered HTML, CSS, JavaScript fundamentals and began building responsive websites.",
       technologies: ["JavaScript", "HTML/CSS", "Git", "Responsive Design"],
       icon: "📚"
     }
@@ -115,7 +115,7 @@ const Experience = () => {
         >
           <div className="stats-grid">
             <div className="stat-item">
-              <h3>2+</h3>
+              <h3>4+</h3>
               <p>Years Learning</p>
             </div>
             <div className="stat-item">
@@ -127,8 +127,8 @@ const Experience = () => {
               <p>Technologies</p>
             </div>
             <div className="stat-item">
-              <h3>100%</h3>
-              <p>Dedication</p>
+              <h3>Fresh</h3>
+              <p>Graduate</p>
             </div>
           </div>
         </motion.div>
