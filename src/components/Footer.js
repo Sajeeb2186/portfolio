@@ -3,6 +3,7 @@ import {FaHome,FaPhone,FaMailBulk,FaFacebook,FaTwitter,FaLinkedin} from "react-i
 
 import React from 'react'
 
+
 const Footer = () => {
   return (
     <div className="footer">
@@ -27,14 +28,37 @@ const Footer = () => {
         </div>
       </div>
       <div className="right">
-        <h4>About the company</h4>
-        <p>This is me Sajeeb. CEO  & Founder of ... I enjoy discussing new projects  and design challenges</p>
-         <div className="social">
-         <FaFacebook size={30} style={{color:"#fff",marginRight:"1rem"}}/>
-         <FaTwitter size={30} style={{color:"#fff",marginRight:"1rem"}}/>
-         <FaLinkedin size={30} style={{color:"#fff",marginRight:"1rem"}}/>
-         </div>
+      <h4>About Me</h4>
+      <p>
+        This is me Sajeeb. I enjoy discussing new projects and design challenges.
+      </p>
+
+      <div className="social">
+        <a
+          href="https://www.facebook.com/mdsajeeb.ahmed.739/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaFacebook size={30} style={{ color: "#fff", marginRight: "1rem" }} />
+        </a>
+
+        <a
+          href="https://twitter.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaTwitter size={30} style={{ color: "#fff", marginRight: "1rem" }} />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/md-sajeeb-mia-b95009228/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin size={30} style={{ color: "#fff", marginRight: "1rem" }} />
+        </a>
       </div>
+    </div>
       </div>
     </div>
   )

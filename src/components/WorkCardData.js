@@ -1,6 +1,6 @@
 import pro1 from "../assets/project1.png"
-import pro2 from "../assets/project2.jpg"
-import pro3 from "../assets/project3.jpg"
+import pro2 from "../assets/project2.png"
+import pro3 from "../assets/project3.png"
 const ProjectCardData=[
 
     {
@@ -15,19 +15,20 @@ const ProjectCardData=[
 
     {
         imgsrc: pro2,
-        title:" hey i am boos",
-        text: "An online learning platform is a website or app that provides students with access to educational content and resources. This content can include lectures, videos, quizzes, assignments, and more.",
+        title:" Scholarship Management System",
+        text: "A web application designed to streamline the scholarship application process for students and administrators.A user-friendly platform where students can easily apply for scholarships.",
 
-        view:"https://youtu.be/vA86QFrXoho?si=__KZftE6K7JEkIbd"
+        view:"https://scholarship-management-c82d9.web.app/"
+        
 
     },
 
     {
         imgsrc: pro3,
-        title:" Rymo Ecommerce website Design",
-        text: "a collection of web pages and related content that is identified by a common domain name and published on at least one web server.",
+        title:" Food Donation Platform",
+        text: " A web application that connects food donors with organizations and individuals in need, helping to reduce food waste and combat hunger. Users can easily donate surplus food and find nearby donation centers.",
 
-        view:"https://youtu.be/vA86QFrXoho?si=__KZftE6K7JEkIbd"
+        view:"https://foodflow-8400c.web.app/"
 
     }
     
