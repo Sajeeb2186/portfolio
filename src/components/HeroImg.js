@@ -75,8 +75,9 @@ const HeroImg = () => {
         <motion.div className="subtitle" variants={itemVariants}>
           <Typewriter
             words={[
-              "Full Stack Web Developer",
-              "Fresh CS Graduate", 
+              "Software Engineer",
+              "Full Stack Developer",
+              "CS Graduate", 
               "React.js Enthusiast",
               "Problem Solver",
               "Ready to Work"
@@ -91,8 +92,8 @@ const HeroImg = () => {
         </motion.div>
 
         <motion.p className="description" variants={itemVariants}>
-          Fresh Computer Science graduate passionate about creating innovative web solutions. 
-          Ready to bring fresh ideas and modern development skills to your next project!
+          Computer Science graduate passionate about creating innovative web solutions. 
+          Ready to bring fresh ideas and modern development skills to new projects!
         </motion.p>
 
         <motion.div className="cta-buttons" variants={itemVariants}>

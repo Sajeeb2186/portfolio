@@ -126,7 +126,7 @@ const Testimonials = () => {
               </div>
               <p className="testimonial-text">"{testimonial.text}"</p>
               <div className="testimonial-author">
-                <img src={testimonial.image} alt={testimonial.name} className="author-image" />
+                {/* <img src={testimonial.image} alt={testimonial.name} className="author-image" /> */}
                 <div className="author-info">
                   <h4 className="author-name">{testimonial.name}</h4>
                   <p className="author-role">{testimonial.role}</p>
