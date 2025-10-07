@@ -7,18 +7,26 @@ const Experience = () => {
     {
       title: "Computer Science Graduate",
       company: "University Studies",
-      period: "2020 - 2024",
+      period: "2022 - 2026",
       description: "Completed Bachelor's degree in Computer Science with focus on software development, data structures, algorithms, and modern web technologies. Built strong foundation in programming concepts.",
       technologies: ["Java", "C++", "Python", "Database Management"],
       icon: "🎓"
     },
     {
-      title: "Full Stack Web Developer",
+      title: "Full Stack Developer",
       company: "Self-Learning & Projects",
-      period: "2022 - Present",
-      description: "Intensive self-learning journey focusing on modern web development. Built 15+ projects including e-commerce platforms, management systems, and social impact applications.",
-      technologies: ["React.js", "Node.js", "MongoDB", "Express.js"],
-      icon: "�"
+      period: "2023 - Present",
+      description: "Mastered both frontend and backend development. Built full-stack applications using MERN stack and Java Spring Boot. Experience with microservices, REST APIs, and database design.",
+      technologies: ["React.js", "Java Spring Boot", "PostgreSQL", "MongoDB"],
+      icon: "💻"
+    },
+    {
+      title: "Backend Development Specialist",
+      company: "Advanced Learning",
+      period: "2024 - Present",
+      description: "Focused on backend technologies including Java Spring Boot, PostgreSQL, and microservices architecture. Built robust APIs and learned enterprise-level development patterns.",
+      technologies: ["Spring Boot", "PostgreSQL", "Spring Security", "JPA/Hibernate"],
+      icon: "🛠️"
     },
     {
       title: "Web Development Enthusiast",
@@ -123,7 +131,7 @@ const Experience = () => {
               <p>Projects Built</p>
             </div>
             <div className="stat-item">
-              <h3>10+</h3>
+              <h3>12+</h3>
               <p>Technologies</p>
             </div>
             <div className="stat-item">

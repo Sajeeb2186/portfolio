@@ -13,11 +13,11 @@ const ProjectCardData = [
     },
     {
         imgsrc: pro2,
-        title: "Scholarship Management System",
-        text: "A comprehensive web application designed to streamline the scholarship application process for students and administrators. Features include application tracking, document management, and automated notifications.",
-        view: "https://scholarship-management-c82d9.web.app/",
-        source: "https://github.com/Sajeeb2186/scholarship-management",
-        technologies: ["React.js", "Express.js", "MongoDB", "JWT", "Material-UI"]
+        title: "E-Learning Management System",
+        text: "A robust backend API built with Java Spring Boot and PostgreSQL for managing online courses, student enrollment, and progress tracking. Features secure authentication, role-based access control, and RESTful APIs.",
+        view: "https://github.com/Sajeeb2186/elearning-api",
+        source: "https://github.com/Sajeeb2186/elearning-api",
+        technologies: ["Java Spring Boot", "PostgreSQL", "Spring Security", "JPA/Hibernate", "REST APIs"]
     },
     {
         imgsrc: pro3,
@@ -26,7 +26,8 @@ const ProjectCardData = [
         view: "https://foodflow-8400c.web.app/",
         source: "https://github.com/Sajeeb2186/food-donation",
         technologies: ["React.js", "Node.js", "MongoDB", "Socket.io", "Google Maps API"]
-    }
+    },
+    
 ]
 
 export default ProjectCardData;

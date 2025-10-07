@@ -5,13 +5,17 @@ import './SkillsStyle.css';
 const Skills = () => {
   const skills = [
     { name: 'React.js', level: 90, icon: '⚛️' },
+    { name: 'Java', level: 85, icon: '☕' },
+    { name: 'Spring Boot', level: 80, icon: '🍃' },
     { name: 'Node.js', level: 85, icon: '🟢' },
+    { name: 'PostgreSQL', level: 75, icon: '🐘' },
     { name: 'MongoDB', level: 80, icon: '🍃' },
-    { name: 'Express.js', level: 85, icon: '🚀' },
+    { name: 'TypeScript', level: 80, icon: '�' },
     { name: 'JavaScript', level: 90, icon: '💛' },
+    { name: 'Next.js', level: 75, icon: '⚡' },
+    { name: 'Express.js', level: 85, icon: '�' },
     { name: 'HTML/CSS', level: 95, icon: '🎨' },
-    { name: 'Git/GitHub', level: 85, icon: '📝' },
-    { name: 'Firebase', level: 75, icon: '🔥' }
+    { name: 'Git/GitHub', level: 85, icon: '�' }
   ];
 
   const containerVariants = {
@@ -91,7 +95,7 @@ const Skills = () => {
         >
           <h3>Additional Technologies</h3>
           <div className="tech-tags">
-            {['REST APIs', 'JWT', 'Socket.io', 'Redux', 'Bootstrap', 'Tailwind CSS', 'Vercel', 'Netlify'].map((tech, index) => (
+            {['REST APIs', 'JPA/Hibernate', 'MySQL', 'Firebase', 'JWT', 'Spring Security', 'Maven', 'Microservices', 'Docker', 'AWS', 'Socket.io', 'Redux', 'Bootstrap', 'Tailwind CSS', 'Vercel', 'Netlify'].map((tech, index) => (
               <motion.span
                 key={index}
                 className="tech-tag"

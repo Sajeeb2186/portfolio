@@ -8,29 +8,29 @@ const Testimonials = () => {
       name: "Academic Excellence",
       role: "Computer Science Graduate",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
-      text: "Successfully completed my Computer Science degree with strong focus on web development. Built multiple projects demonstrating full-stack capabilities and modern development practices.",
+      text: "Successfully completed my Computer Science degree with strong focus on software development. Built multiple projects demonstrating both frontend and backend capabilities using modern technologies.",
       rating: 5
     },
     {
-      name: "Self-Directed Learning",
-      role: "Continuous Improvement",
+      name: "Backend Development Mastery",
+      role: "Java Spring Boot Specialist",
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
-      text: "Passionate about staying updated with latest technologies. Completed numerous online courses and certifications in React.js, Node.js, and modern web development frameworks.",
+      text: "Mastered enterprise-level backend development with Java Spring Boot, PostgreSQL, and microservices architecture. Built robust APIs with authentication, authorization, and database management.",
       rating: 5
     },
     {
-      name: "Project Portfolio",
-      role: "Practical Experience",
+      name: "Full-Stack Development",
+      role: "MERN & Java Stack",
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face",
-      text: "Developed diverse range of projects including e-commerce platforms, management systems, and social impact applications. Each project showcases different aspects of full-stack development.",
+      text: "Proficient in both MERN stack and Java-based backend development. Created diverse projects ranging from e-commerce platforms to management systems with different technology stacks.",
       rating: 5
     }
   ];
 
   const achievements = [
     { number: "15+", label: "Projects Built", icon: "🚀" },
-    { number: "10+", label: "Technologies Learned", icon: "�" },
-    { number: "2+", label: "Years Learning", icon: "📚" },
+    { number: "12+", label: "Technologies Learned", icon: "💡" },
+    { number: "4+", label: "Years Learning", icon: "📚" },
     { number: "100%", label: "Passion & Dedication", icon: "❤️" }
   ];
 
