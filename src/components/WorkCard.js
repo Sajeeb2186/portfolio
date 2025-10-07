@@ -1,22 +1,62 @@
 import "./WorkcardStyle.css";
-
-import {NavLink } from "react-router-dom";
-
-import React from 'react'
+import { motion } from "framer-motion";
+import React from 'react';
 
 const WorkCard = (props) => {
   return (
-    <div className="project-card">
-    <img src={props.imgsrc} alt="image"/>
-    <h2 className="project-title">{props.title}</h2>
-    <div className="pro-details">
-     <p>{props.text}</p>
-     <div className="pro-btns">
-       <NavLink to={props.view} className="btn"> View</NavLink>
-       <NavLink to="url.com" className="btn"> Source</NavLink>
-     </div>
-    </div>
- </div>
+    <motion.div 
+      className="project-card"
+      whileHover={{ y: -10 }}
+      transition={{ duration: 0.3 }}
+    >
+      <div className="project-image-container">
+        <img src={props.imgsrc} alt={props.title} className="project-image"/>
+        <div className="project-overlay">
+          <div className="overlay-content">
+            <h3>View Project</h3>
+            <p>Click to explore</p>
+          </div>
+        </div>
+      </div>
+      
+      <div className="project-content">
+        <h2 className="project-title">{props.title}</h2>
+        <p className="project-description">{props.text}</p>
+        
+        {props.technologies && (
+          <div className="tech-stack">
+            {props.technologies.map((tech, index) => (
+              <span key={index} className="tech-tag-small">{tech}</span>
+            ))}
+          </div>
+        )}
+        
+        <div className="project-buttons">
+          {props.view && (
+            <a 
+              href={props.view} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="btn btn-primary-small"
+            >
+              <span>Live Demo</span>
+              <i className="icon">🔗</i>
+            </a>
+          )}
+          {props.source && (
+            <a 
+              href={props.source} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="btn btn-secondary-small"
+            >
+              <span>Source Code</span>
+              <i className="icon">📄</i>
+            </a>
+          )}
+        </div>
+      </div>
+    </motion.div>
   )
 }
 
