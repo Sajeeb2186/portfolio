@@ -5,16 +5,17 @@ const ProjectCardData=[
 
     {
         imgsrc: pro1,
-        title:"Ecommerce website Design",
-        text: "A website that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location. It will help you to find out the best solution of you shoping",
+        title:"GreenCafe- A Restaurant Website",
+        text: "A website that allows people to buy foods. Customers can browse the menu, place orders for delivery or pickup, and make payments online.",
 
-        view:"https://youtu.be/vA86QFrXoho?si=__KZftE6K7JEkIbd"
+        view:"https://greencafe-d390f.web.app/",
+        source:"https://github.com/Sajeeb2186/GreenCafe-client"
 
     },
 
     {
         imgsrc: pro2,
-        title:"Educational website Design",
+        title:" hey i am boos",
         text: "An online learning platform is a website or app that provides students with access to educational content and resources. This content can include lectures, videos, quizzes, assignments, and more.",
 
         view:"https://youtu.be/vA86QFrXoho?si=__KZftE6K7JEkIbd"
