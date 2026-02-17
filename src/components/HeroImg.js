@@ -2,7 +2,6 @@ import "./HeroImgStyle.css";
 import { Typewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
 import React from 'react'
-import {Link} from "react-router-dom";
 import ProfileImg from "../assets/sajeeb.png";
 import ResumePDF from "../assets/Resume_MD_Sajeeb_Mia__Node_JS.pdf";
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
