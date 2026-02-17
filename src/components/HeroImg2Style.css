@@ -1,45 +1,90 @@
 .hero-img{
     width: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    height:60vh;
-    position:relative;
+    background: linear-gradient(135deg, rgba(10, 10, 26, 0.9) 0%, rgba(26, 26, 46, 0.9) 100%);
+    height: 65vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-img::before{
-
-   content:"";
-   background:url("https://images.unsplash.com/photo-1520583457224-aee11bad5112?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM2fHxwcm9ncmFtbWluZ3xlbnwwfHwwfHx8MA%3D%3D") ;
+   content: "";
+   background: url("https://images.unsplash.com/photo-1520583457224-aee11bad5112?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM2fHxwcm9ncmFtbWluZ3xlbnwwfHwwfHx8MA%3D%3D");
    background-size: cover;
    background-position: center top;
-   height:100%;
-   width:100%;
-   position:absolute;
-   top:0;
-   left:0;
-   z-index:-1;
-
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+   filter: brightness(0.4) saturate(1.2);
 }
+
+.hero-img::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(139, 92, 246, 0.15) 100%);
+    z-index: -1;
+}
+
 .heading{
     width: 100%;
-    height:100%;
-    display:flex;
+    height: 100%;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
+    text-align: center;
 }
 
 .hero-img h1{
-    font-size: 2.4rem;
-
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, #ffffff 0%, #8b5cf6 50%, #6366f1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: -1.5px;
+    text-shadow: 0 0 80px rgba(139, 92, 246, 0.3);
 }
 
 .hero-img p{
-    font-size: 1.4rem;
-    text-align:center;
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    max-width: 600px;
 } 
 
-@media screen and (max-width:640px){
+@media screen and (max-width: 768px){
+    .hero-img {
+        height: 55vh;
+    }
+    
     .hero-img h1{
-        font-size: 2rem;
+        font-size: 3rem;
+    }
+    
+    .hero-img p{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .hero-img h1{
+        font-size: 2.5rem;
+    }
+    
+    .hero-img p{
+        font-size: 1.15rem;
     }
 }

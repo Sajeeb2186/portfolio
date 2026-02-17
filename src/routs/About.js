@@ -4,7 +4,6 @@ import Footer from "../components/Footer";
 import HeroImg2 from '../components/HeroImg2';
 import AboutContent from '../components/AboutContent';
 import Experience from '../components/Experience';
-import Skills from '../components/Skills';
 
 const About = () => {
   return (
@@ -12,7 +11,6 @@ const About = () => {
       <Nabver/>
       <HeroImg2 heading="ABOUT." text="I am a Full Stack Developer"/> 
       <AboutContent/>
-      <Skills/>
       <Experience/>
       <Footer/>
     </div>

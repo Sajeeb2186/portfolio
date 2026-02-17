@@ -1,23 +1,39 @@
 .about{
     width:100%;
-    margin:3rem 0;
-    display:flex;
+    margin: 5rem 0;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    height:100%;
+    height: 100%;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #0a0a0a 0%, #16213e 50%, #0a0a0a 100%);
+    border-radius: 30px;
 }
 
 .about .left{
     text-align: center;
-    margin:auto;
-    padding:1rem;
-    max-width: 350px;
+    margin: auto;
+    padding: 2rem;
+    max-width: 450px;
+}
+
+.about .left h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    background: linear-gradient(135deg, #ffffff 0%, #8b5cf6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: 'Playfair Display', serif;
 }
 
 .about .left p{
-    margin:1.2rem 0;
-
+    margin: 1.5rem 0 2.5rem;
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.85);
 }
 
 .about .right{
@@ -25,28 +41,52 @@
 }
 
 .right .img-container{
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(12,1fr);
-    position:relative;
+    position: relative;
     align-items: center;
     text-align: center;
 }
 
 .right .img{
     max-width: 90%;
-    border:1px solid #333;
+    border: 2px solid rgba(139, 92, 246, 0.3);
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(139, 92, 246, 0.2);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.right .img:hover {
+    border-color: rgba(139, 92, 246, 0.6);
+    box-shadow: 0 30px 80px rgba(139, 92, 246, 0.3);
+    transform: translateY(-5px);
 }
 
 .right .top{
-    grid-column: 1/ span 8;
+    grid-column: 1 / span 8;
     grid-row: 1;
     padding-top: 20%;
     z-index: 6;
 }
 
 .right .bottom{
-    grid-column: 4/ -1;
+    grid-column: 4 / -1;
     grid-row: 1;
     z-index: 5;
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        margin: 3rem 0;
+        padding: 3rem 1rem;
+    }
+    
+    .about .left h1 {
+        font-size: 2.5rem;
+    }
+    
+    .about .left p {
+        font-size: 1.05rem;
+    }
 }
 

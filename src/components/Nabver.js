@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { motion } from "framer-motion";
+import profileImg from "../assets/sajeeb.png";
 
 const Nabver = () => {
   const [click, setClick] = useState(false);
@@ -50,13 +51,16 @@ const Nabver = () => {
       animate="visible"
     >
       <Link to="/" onClick={closeMobileMenu}>
-        <motion.h1 
-          className="logo"
+        <motion.div 
+          className="logo-container"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.2 }}
         >
-          Sajeeb<span className="logo-accent">.</span>
-        </motion.h1>
+          <img src={profileImg} alt="Sajeeb" className="logo-img" />
+          <h1 className="logo">
+            Sajeeb<span className="logo-accent">.</span>
+          </h1>
+        </motion.div>
       </Link>
       
       <ul className={click ? "nav-menu active" : "nav-menu"}>
